@@ -29,7 +29,7 @@
 }
 
 .primary-button {
-  background: #2563eb;
+  background: #b96548;
   color: white;
 }
 
@@ -86,7 +86,7 @@
 
 .form-group input:focus,
 .form-group select:focus {
-  border-color: #2563eb;
+  border-color: #b96548;
 }
 
 .items-section {
@@ -285,7 +285,7 @@ td {
 
 .small-button {
   border: none;
-  background: #2563eb;
+  background: #b96548;
   color: white;
   padding: 7px 10px;
   border-radius: 5px;

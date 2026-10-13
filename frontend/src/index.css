@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ERPFlow: remove blue accents globally */
+
+:root {
+  --primary: #b96548;
+  --primary-hover: #9f5038;
+  --accent: #b96548;
+  --background: #f5f0e7;
+  --surface: #fffdf9;
+  --text: #292622;
+  --sage: #dce6d5;
+}
+
+/* Remove common blue backgrounds and text */
+.active,
+.active-link,
+.active-nav,
+.nav-link.active,
+.sidebar a.active,
+.sidebar .active {
+  background-color: #b96548 !important;
+  border-color: #b96548 !important;
+  color: #ffffff !important;
+}
+
+button,
+.btn-primary,
+.primary-button,
+input[type="submit"] {
+  background-color: #b96548;
+  border-color: #b96548;
+}
+
+button:hover,
+.btn-primary:hover,
+.primary-button:hover,
+input[type="submit"]:hover {
+  background-color: #9f5038;
+  border-color: #9f5038;
+}
+
+/* Replace blue text and workflow numbering */
+.workflow-number,
+.step-number,
+.step-indicator,
+.stat-number {
+  color: #b96548 !important;
+}
+
+/* Replace blue profile and statistic icon backgrounds */
+.profile-avatar,
+.user-avatar {
+  background-color: #b96548 !important;
+  color: #ffffff !important;
+}
+
+.stat-icon-blue,
+.icon-blue {
+  background-color: #dce6d5 !important;
+  color: #344b32 !important;
+}
+
+/* Warm neutral surfaces */
+body,
+#root {
+  background-color: #f5f0e7;
+  color: #292622;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #b96548;
+  outline-color: #b96548;
+}
+
+/* Final sidebar colour override */
+.sidebar a.active,
+.sidebar a[aria-current="page"],
+.sidebar .active,
+.sidebar .active-link,
+.sidebar .active-nav,
+nav a.active,
+nav a[aria-current="page"] {
+  background: #b96548 !important;
+  background-color: #b96548 !important;
+  color: #ffffff !important;
+  border-color: #b96548 !important;
+  box-shadow: none !important;
+}
+
+/* Remove blue focus and hover accents */
+.sidebar a:hover,
+nav a:hover {
+  border-color: #b96548;
+}
+
+.sidebar a:focus,
+.sidebar a:focus-visible {
+  outline-color: #b96548;
+}

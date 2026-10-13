@@ -21,7 +21,8 @@
 
 .primary-button {
   border: none;
-  background: #2563eb;
+  background: #b96548 !important;
+  color: #ffffff !important;
   color: white;
   padding: 11px 18px;
   border-radius: 7px;
@@ -74,7 +75,7 @@
 }
 
 .form-group input:focus {
-  border-color: #2563eb;
+  border-color: #b96548;
 }
 
 .error-message {
